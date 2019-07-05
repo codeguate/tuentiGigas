@@ -1,0 +1,111 @@
+﻿@media only screen and (max-device-width : 1024px) {
+	.pedilo p {
+		width: 45% !important;
+	}
+}
+
+@media only screen and (min-width : 1024px) {
+	iframe {
+		width: 80%;
+	}
+
+	.textinfo {
+		width: 64%;
+
+	}
+
+	.pedilo {
+		width: 40%;
+	}
+
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+	.pedilo p {
+		width: auto !important;
+	}
+
+	.partido p {
+		position: relative;
+		width: 40%;
+
+		margin: 10px auto;
+	}
+
+	.partidos {
+		width: 100%;
+	}
+
+	.equipo {
+		position: relative;
+		width: calc(30% - 30px) !important;
+
+	}
+
+	.partido p {
+		position: relative;
+		height: 70px;
+		margin: 10px auto;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.horario {
+		margin: 0px;
+
+		width: 40%;
+	}
+
+	.horario a {
+		width: 80%;
+		margin: 10px 0px;
+		padding: 10px;
+	}
+
+	.combos {
+		width: 70%;
+	}
+
+	.textinfo.test p {
+		margin-top: 0px;
+	}
+
+	.textinfo.test {
+		width: 90%;
+		font-size: 3em;
+	}
+
+	.lugares p {
+		line-height: 100%;
+	}
+
+	iframe {
+		width: 80%;
+		height: 300px;
+	}
+
+	.imageneslugares img {
+		width: 100%;
+	}
+
+	footer>div {
+		width: 45%;
+	}
+
+	.clicktermtest:after,
+	.clicktermtest:before {
+		padding: 35px !important;
+		top: -15%;
+	}
+
+	.clicktermtest:after {
+		right: -75px;
+	}
+
+	.clicktermtest:before {
+		left: -75px;
+	}
+}

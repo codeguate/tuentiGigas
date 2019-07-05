@@ -1,0 +1,57 @@
+﻿@media only screen and (device-width : 812px) and (device-height : 375px) and (-webkit-device-pixel-ratio : 3) {
+	.imageneslugares img {
+		width: 100%;
+	}
+
+	.lugares p a {
+
+		border-radius: 10px;
+
+		font-size: 22px;
+
+
+	}
+
+	.orejona {
+		background-image: url(img/Fondo.png);
+	}
+
+	.textinfo {
+		width: 80%;
+
+	}
+
+	.textinfo p {
+		font-size: 30px;
+	}
+
+	body {
+		background-image: none;
+	}
+
+	.terminostext {
+		width: 75% !important;
+	}
+
+	.combos,
+	.imgincly {
+		width: 80%;
+	}
+
+	.combos img {
+		height: 100px !important;
+	}
+
+	.pedilo {
+		width: 50%;
+	}
+
+	iframe {
+		width: 80%;
+		height: 330px !important;
+	}
+
+	.lugares p a {
+		font-weight: 700;
+	}
+}

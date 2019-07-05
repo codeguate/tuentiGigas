@@ -1,0 +1,368 @@
+﻿@media only screen and (max-width: 480px),
+screen and (max-device-width: 480px) {
+
+	.orejona>.textoimg {
+		top: 0px !important;
+		margin-bottom: 20px !important;
+		font-size: 2em !important;
+	}
+
+	.pedilo p {
+		font-size: 20px !important;
+	}
+
+	.trueno1 {
+		top: -40px;
+		left: -3%;
+		width: 34px;
+	}
+
+	.trueno2 {
+		top: -40px;
+		right: -3%;
+		width: 34px;
+	}
+
+	.tablapartido {
+		width: 95%;
+	}
+
+
+	.lugares p a {
+
+		border-radius: 10px;
+
+
+
+	}
+
+	.imageneslugares {
+		width: 100%;
+	}
+
+	.content img {
+		width: 90%;
+	}
+
+	.textinfo {
+		width: 80%;
+		margin-top: 0px;
+
+	}
+
+	.textinfo p {
+		font-size: 35px;
+		width: 75%;
+		width: 100%;
+	}
+
+	.combos img {
+		width: 100% !important;
+		height: 90px !important;
+	}
+
+	.orejona {
+		background-position-x: 50%;
+	}
+
+	.orejona>div {
+		width: 90% !important;
+	}
+
+	.orejona {
+		flex-wrap: wrap;
+
+	}
+
+	.lugares {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.lugares p {
+		font-size: 35px;
+		width: 75%;
+		line-height: 94%;
+	}
+
+	.imageneslugares img {
+		width: 100%;
+	}
+
+	footer {
+		flex-direction: column;
+	}
+
+	footer>div {
+		width: 90% !important;
+		margin: 0 auto !important;
+	}
+
+	.terminos {
+		font-size: 20px;
+	}
+
+	.imageneslugares .dos {
+		width: 80%;
+	}
+
+	.video iframe {
+		width: 80%;
+		height: auto;
+	}
+
+	.redes p {
+		text-align: center;
+	}
+
+	.terminostext {
+		width: 75% !important;
+	}
+
+	.terminostext ul {
+		padding: 0px;
+	}
+
+	.terminostext ul li {
+
+		font-size: 11px;
+	}
+
+	footer .logo img {
+		width: 40%;
+	}
+
+	.redes p a {
+		font-size: 20px;
+	}
+
+	body {
+		background-image: none;
+	}
+
+	.orejona {
+		background-image: url(img/Fondo.jpg);
+	}
+
+	video {
+		height: auto;
+	}
+
+	.combos,
+	.imgincly {
+		width: 80%;
+	}
+
+	.pedilo {
+		width: 80%;
+	}
+
+	.lugares p a {
+		font-weight: 700;
+
+	}
+	p.equipo {
+		height: fit-content !important;
+		border-radius: 5px !important;
+	}
+	
+}
+
+@media only screen and (min-width : 150px) and (max-width : 667px) {
+	.tablapartido {
+		width: 95%;
+	}
+
+
+	.lugares p a {
+		font-weight: 700;
+	}
+
+	.content img {
+		width: 90%;
+	}
+
+	.textinfo {
+		width: 80%;
+
+	}
+
+	.textinfo p {
+		font-size: 35px;
+		width: 75%;
+		width: 100%;
+	}
+
+	video {
+		height: auto;
+	}
+
+	.orejona {
+		height: auto;
+	}
+
+	.combos img {
+		width: 100% !important;
+		height: 90px !important;
+	}
+
+	.orejona {
+		background-position-x: 50%;
+	}
+
+	.orejona>div {
+		width: 100% !important;
+	}
+
+	.orejona {
+		flex-wrap: wrap;
+
+	}
+
+	.lugares {
+		width: 95%;
+		margin: 0 auto;
+	}
+
+	.lugares p {
+		font-size: 20px;
+		width: 100%;
+		line-height: 94%;
+	}
+
+	.imageneslugares img {
+		width: 100%;
+	}
+
+	footer {
+		flex-direction: column;
+	}
+
+	footer>div {
+		width: 90% !important;
+		margin: 0 auto !important;
+	}
+
+	.terminos {
+		font-size: 20px;
+	}
+
+	.imageneslugares .dos {
+		width: 70%;
+	}
+
+	.video iframe {
+		width: 80%;
+		height: auto;
+	}
+
+	.redes p {
+		text-align: center;
+
+	}
+
+	.terminostext {
+		width: 75% !important;
+	}
+
+	.terminostext ul {
+		padding: 0px;
+	}
+
+	.terminostext ul li {
+
+		font-size: 11px;
+	}
+
+	footer .logo img {
+		width: 40%;
+	}
+
+	.redes p a {
+		font-size: 20px;
+	}
+
+	body {
+		background-image: url(img/Fondo.jpg);
+		background-size: 100% 100vh;
+		background-attachment: fixed;
+	}
+
+	.orejona {
+		background-image: none;
+	}
+
+	.combos,
+	.imgincly {
+		width: 80%;
+	}
+
+	.pedilo {
+		width: 80%;
+	}
+
+	.partidos {
+		width: 100%;
+	}
+
+	/*
+.partido
+{
+	flex-direction: column;
+}*/
+	.equipo {
+		position: relative;
+		width: 33% !important;
+
+	}
+
+	.partido p {
+		position: relative;
+		height: 70px;
+		margin: 10px auto;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.tablapas {
+		width: 90%;
+	}
+
+	.horario {
+		margin: 0px;
+		height: 114px !important;
+		width: 40%;
+	}
+
+	.horario a {
+		width: 80%;
+		margin: 10px 0px;
+		padding: 10px;
+	}
+
+	.clicktermtest:after,
+	.clicktermtest:before {
+		padding: 12px !important;
+		top: 0px;
+	}
+
+	.clicktermtest:after {
+		right: -12%;
+	}
+
+	.clicktermtest:before {
+		left: -12%;
+	}
+}
+
+@media only screen and (max-width: 350px) {
+	p.textoimg {
+		font-size: 2em !important;
+		padding-top: 5%;
+	}
+
+	.orejona>div {
+		width: 100% !important;
+	}
+}
